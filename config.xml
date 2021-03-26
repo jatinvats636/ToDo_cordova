@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.todo.example" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>To-Do</name>
+    <description>
+        An Apache Cordova application that is made to store things to do.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        jatin Kumar Vats
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+    <preference name="SplashStatusBarBackgroundColor" value="#020024" />
+    <preference name="SplashNavigationBarBackgroundColor" value="#020024" />  
+    <preference name="StatusBarBackgroundColor" value="#020024" />
+        <icon src="www/assets/img/todo2.png" />
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    
+    <preference name="SplashScreenBackgroundColor" value="#020024" />
+    <preference name="SplashScreen" value="loader" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="true"/>
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="ShowSplashScreen" value="true" />
+    <preference name="SplashScreenWidth" value="1078" />
+    <preference name="SplashScreenHeight" value="2246" />
+</widget>
